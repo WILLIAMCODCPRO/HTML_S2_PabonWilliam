@@ -30,9 +30,9 @@ body {
     width: 1918px;
     height: 4149px;
 
-    background: transparent url('../img/imagen.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/imagen.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
+    
 }
 
 
@@ -43,7 +43,7 @@ body {
     width: 1920px;
     height: 1080px;
 
-    background: transparent url('../img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/FondoTwitch.png') 0% 0% no-repeat padding-box;
     opacity: 0.35;
 }
 
@@ -56,8 +56,8 @@ body {
      width: 556px;
      height: 313px;
 
-     background: transparent url('../img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
-     opacity: 1;
+     background:  url('../img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+    
 }
 
 
@@ -69,8 +69,8 @@ body {
     width: 36px;
     height: 36px;
 
-    background: transparent url('../img/Iconawesome-search.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background:  url('../img/Iconawesome-search.png') 0% 0% no-repeat padding-box;
+    
 }
 
 .Group1{
@@ -80,8 +80,8 @@ body {
     width: 205px;
     height: 54px;
 
-    background: transparent url('../img/Group1.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background:  url('../img/Group1.png') 0% 0% no-repeat padding-box;
+    
 }
 
 
@@ -94,10 +94,10 @@ body {
     left: 730px;
     width: 458px;
     height: 104px;
-    background: transparent url('../img/Rectangle2.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/Rectangle2.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 52px;
-    opacity: 1;
+    
 }
 
 
@@ -109,8 +109,8 @@ body {
     width: 1792px;
     height: 567px;
 
-    background: transparent url('../img/Group2.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background:  url('../img/Group2.png') 0% 0% no-repeat padding-box;
+   
 }
 
 .Rectangle3 {
@@ -120,9 +120,9 @@ body {
     width: 1792px;
     height: 724px;
 
-    background: transparent url('../img/Rectangle3.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/Rectangle3.png') 0% 0% no-repeat padding-box;
     border-radius: 108px;
-    opacity: 1;
+    
 }
 
 
@@ -134,9 +134,9 @@ body {
     width: 181px;
     height: 309px;
 
-    background: transparent url('../img/Rectangle4.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/Rectangle4.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
+    
 }
 
 .Rectangle5 {
@@ -146,9 +146,9 @@ body {
     width: 181px;
     height: 309px;
 
-    background: transparent url('../img/Rectangle5.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/Rectangle5.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
+    
 }
 
 .Rectangle6 {
@@ -158,9 +158,9 @@ body {
    width: 180px;
    height: 309px;
 
-    background: transparent url('../img/Rectangle6.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/Rectangle6.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
+    
 }
 
 .Rectangle7 {
@@ -170,9 +170,9 @@ body {
    width: 181px;
    height: 309px;
 
-    background: transparent url('../img/Rectangle7.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/Rectangle7.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
+    
 }
 
 .Rectangle8 {
@@ -182,9 +182,9 @@ body {
    width: 181px;
    height: 309px;
 
-    background: transparent url('../img/Rectangle8.png') 0% 0% no-repeat padding-box;
+    background:  url('../img/Rectangle8.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
+    
 }
 
 .Rectangle9 {
@@ -194,8 +194,8 @@ body {
    width: 1792px;
    height: 567px;
 
-    background: transparent url('../img/Rectangle9.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background:  url('../img/Rectangle9.png') 0% 0% no-repeat padding-box;
+    
 }
 
 .Iconmetro-cancel{
@@ -205,10 +205,73 @@ body {
     width: 169px;
     height: 169px;
 
-    background: transparent url('../img/Iconmetro-cancel.png') 0% 0% no-repeat padding-box;
-   opacity: 1;
+    background:  url('../img/Iconmetro-cancel.png') 0% 0% no-repeat padding-box;
+   
 }
 
+.flecha1{
+    position: absolute;
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    
+
+    background:  url('../img/Flecha1.png') 0% 0% no-repeat padding-box;
+    
+}
+
+.flecha2{
+    position: absolute;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: rotate(180deg);
+    
+
+    background:  url('../img/Flecha2.png') 0% 0% no-repeat padding-box;
+    
+}
+
+.image1 {
+    position: absolute;
+   top: 3440px;
+   left: 685px;
+   width: 584px;
+   height: 534px;
+    
+    
+
+    background:  url('../img/Image1.png') 0% 0% no-repeat padding-box;
+    
+}
+
+.image2 {
+    position: absolute;
+   top: 3606px;
+   left: 386px;
+   width: 256px;
+   height: 219px;
+    
+    
+
+    background:  url('../img/Image2.png') 0% 0% no-repeat padding-box;
+    
+}
+
+.image3 {
+    position: absolute;
+   top: 3587px;
+   left: 1261px;
+   width: 271px;
+   height: 238px;
+    
+    
+
+    background:  url('../img/Image3.png') 0% 0% no-repeat padding-box;
+    
+}
 
 
 /* ========== TEXTO ========== */
@@ -323,3 +386,45 @@ body {
     text-align: left;
 }
 
+.texto7 {
+    position: absolute;
+
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    font-size: 125px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'AmazonEmberLight';
+    text-align: center;
+}
+
+.texto8 {
+    position: absolute;
+
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    font-size: 45px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'AmazonEmberLight';
+    text-align: center;
+}
+
+.texto9 {
+    position: absolute;
+
+    top: 3990px;
+    left: 450px;
+    width: 1090px;
+    height: 25px;
+    font-size: 35px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'AmazonEmberLight';
+    text-align: center;
+   
+}
