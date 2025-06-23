@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'AmazonEmberBold';
+  src: url('../fonts/AmazonEmber_W_Bd.woff2') format('woff2');
+  
+
+  
+}
+
+@font-face {
+  font-family: 'AmazonEmberLight';
+  src: url('../fonts/AmazonEmber_W_Lt.woff2') format('woff2');
+  
+
+  
+}
 
 body {
     background-color: black;
@@ -18,7 +33,7 @@ body {
 }
 
 
-.imagen1 {
+.FondoTwich {
 
     top: 0px;
     left: 0px;
@@ -27,4 +42,105 @@ body {
 
     background: transparent url('../img/FondoTwitch.png') 0% 0% no-repeat padding-box;
     opacity: 0.35;
+}
+
+.LogoPrimeE2{
+
+     position: absolute;
+   
+     top: 227px;
+     left: 682px;
+     width: 556px;
+     height: 313px;
+
+     background: transparent url('../img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+     opacity: 1;
+}
+
+.texto1 {
+    position: absolute;
+    font-size: 60px;
+    top: 417px;
+    left: 389px;
+    width: 1151px;
+    height: 1170px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'AmazonEmberBold';
+    
+}
+
+.Iconawesome-search {
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+
+    background: transparent url('../img/Iconawesome-search.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Group1{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+
+    background: transparent url('../img/Group1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.login {
+    position: absolute;
+
+    top: 25px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+    color: #000000;
+    opacity: 1;
+    font-family: 'AmazonEmberLight';
+    text-align: center;
+}
+
+.texto2 {
+    position: absolute;
+
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    font-size: 30px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'AmazonEmberLight';
+    text-align: center;
+}
+
+.Rectangle2 {
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    background: transparent url('../img/Rectangle2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+}
+
+.Sign-Up {
+    position: absolute;
+    top: 780px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    font-family: 'AmazonEmberLight';
 }
