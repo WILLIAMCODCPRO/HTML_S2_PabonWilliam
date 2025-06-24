@@ -1,3 +1,28 @@
+
+@font-face {
+  font-family: 'AmazonEmberBold';
+  src: url('../fonts/AmazonEmber_W_Bd.woff2');
+  
+
+  
+}
+
+@font-face {
+  font-family: 'AmazonEmberLight';
+  src: url('../fonts/AmazonEmber_W_Lt.woff2');
+  
+
+  
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
 body{
-    background-color: blue;
+    margin: 0;
 }
