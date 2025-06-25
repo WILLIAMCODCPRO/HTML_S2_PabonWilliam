@@ -1,0 +1,94 @@
+
+body{
+ 
+ margin: 0;
+ padding: 0;
+
+}
+
+
+
+.contenedor1 {
+    position: relative;
+    background-image: linear-gradient(#FFFFFF,#E6E6E6,#808080);
+    border: 1px solid #707070;
+    width: 1600px;
+    height: 1200px;
+    
+    
+   
+}
+
+.contenedor2 {
+    position: relative;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    width: 1400px;
+    height: 800px;
+    top: 200px;
+    left: 100px;
+
+}
+
+
+
+.logoMetrolinia{
+    position: absolute;
+    top: 43px;
+    left: 43px;
+    width: 196px;
+    height: 44px;
+}
+
+
+
+.comprarTarjeta {
+    position: absolute;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Open Sans';
+    top: 40px;
+    left: 700px;
+    text-align: left;
+   
+
+}
+
+
+
+.verSaldo{
+    position: absolute;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Open Sans';
+    top: 42px;
+    left: 972px;
+    text-align: left;
+   
+}
+
+.lupa{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 51.75px;
+    left: 1123.7px;
+}
+
+.contenedor3{
+    position: absolute;
+    background-color: #212020;
+    width: 110px;
+    height: 800px;
+    top: 0px;
+    left: 1290px;
+    border: 2px solid #707070;
+}
+
+.carritoDeCompra{
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    top: 51.5px;
+    left: 1223.67px;
+}
