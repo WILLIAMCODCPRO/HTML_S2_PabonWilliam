@@ -1,4 +1,6 @@
 
+
+
 body{
  
  margin: 0;
@@ -82,7 +84,79 @@ body{
     height: 800px;
     top: 0px;
     left: 1290px;
-    border: 2px solid #707070;
+    border: 1px solid #707070;
+}
+
+.cantidad{
+    position: absolute;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    top: 149px;
+    left: 14px;
+    text-align: left;
+}
+
+.saldo1{
+    position: absolute;
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Open Sans';
+    top: 601px;
+    left: 58px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.saldo2 {
+    position: absolute;
+    font-size: 27px;
+    color: #000000;
+    font-family: 'Open Sans';
+    top: 671px;
+    left: 58px;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+.listaNumeros{
+    position: absolute;
+    top: 260px;
+    left: 5px;
+    list-style: none;
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+.numero4{
+    color: #707070;
+
+}
+
+.numero5 {
+    color: #FFFFFF;
+}
+
+.numero3{
+    color: #707070;
+
+}
+
+.flecha1{
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    top: 40px;
+    left: 42.82px;
+}
+
+.flecha2{
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    top: 746px;
+    left: 42.82px;
 }
 
 .carritoDeCompra{
@@ -91,4 +165,42 @@ body{
     height: 32px;
     top: 51.5px;
     left: 1223.67px;
+}
+
+.contenedor4{
+    position: absolute;
+    background-color: #D5FF43;
+    width: 160px;
+    height: 114px;
+    top: 647px;
+    left: 1080px;
+}
+
+
+.comprar{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    text-align: left;
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    
+}
+
+
+.logoMetroLinia2{
+    position: relative;
+    width: 129px;
+    height: 29px;
+    top: 29px;
+    left: 15px;
+}
+
+.tarjetaMetroLinia{
+    position: absolute;
+    width: 884px;
+    height: 497px;
+    top: 122px;
+    left: 127px;
 }
