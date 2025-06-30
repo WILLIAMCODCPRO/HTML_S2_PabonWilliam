@@ -45,7 +45,8 @@ header {
   position: relative;
   left: 15%;
   top: 20%;
-  
+  font-family: Georgia;
+  font-weight: bold;
 }
 
 .menu{
@@ -59,9 +60,128 @@ header {
   color: #e6e7ed;
   padding: 1vw;
   text-decoration: none;
+  font-family: Georgia;
 }
 
 .menu a:hover {
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color: #996633;
+}
+
+section{
+
+    display: flex;
+    
+}
+
+.texto1{
+    position: relative;
+    color: #e6e7ed;
+    left: 40%;
+    top: 10vh;
+    font-family: Georgia;
+    font-weight: bold;
+    
+    
+}
+
+ .cafe1 img{
+    height: 50vh;
+    
+
+ }
+
+ .cafe1{
+    position: relative;
+    left: 19%;
+    top: 17vh;
+ }
+
+.texto2 {
+    position: relative;
+    color: #e6e7ed;
+    left: -3%;
+    top: 72vh;
+    font-family: Georgia;
+    font-weight: bold;
+    
+}
+
+.boton1{
+    display: flex;
+    background-color: #996633;
+    height: 5vh;
+    width: 20vh;
+    border: 3px solid black;
+    position: relative;
+    left: -18%;
+    top: 79vh;
+    
+}
+
+.boton1 p{
+    padding-top: 1vh;
+    padding-left: 4vh;
+    font-family: Georgia;
+    font-weight: bold
+}
+
+
+
+.cafe2 img{
+    height: 50vh;
+    
+
+ }
+
+ .cafe2{
+   position: absolute;
+   top: 100vh;
+ }
+
+ .barraBlanca{
+    position: absolute;
+    height: 0;
+    width: 20vh;
+    top: 115vh;
+    left: 45vw;
+    border: 3px solid white;
+ }
+
+ .nuestraHistoria {
+    position: absolute;
+    color: #e6e7ed;
+    top: 110vh;
+    left: 58vw;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 3vw;
+ }
+
+ .lorem1 {
+    position: absolute;
+    color: #e6e7ed;
+    top: 120vh;
+    left: 58vw;
+    font-family: Georgia;
+    font-size: 2vw;
+ }
+
+ .boton2{
+    display: flex;
+    background-color: #996633;
+    height: 5vh;
+    width: 20vh;
+    border: 3px solid black;
+    position: absolute;
+    top: 140vh;
+    left: 57.5vw;
+    
+}
+
+.boton2 p{
+    padding-top: 1vh;
+    padding-left: 3vh;
+    font-family: Georgia;
+    font-weight: bold
 }
