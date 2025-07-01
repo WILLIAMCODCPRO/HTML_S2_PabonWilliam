@@ -335,3 +335,102 @@ section{
     font-weight: bold
 }
 
+
+.final{
+   position: relative;
+    display: flex;
+    
+}
+
+
+.barraDorada{
+    position: absolute;
+    height: 0;
+    width: 85vh;
+    top: 20vh;
+    left: 28vw;
+    border: 3px solid #996633;
+ }
+
+ .informacion{
+    position: relative;
+    top: 45vh;
+    left: -2vw;
+    display: flex;
+    height: 80vh;
+    width: 65vh;
+
+   
+    
+    
+ }
+
+ .informacion .sobreNosotros{
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    color: #e6e7ed;
+    font-family: Georgia;
+    font-weight: bold;
+    
+ }
+
+ .informacion .contactanos{
+    position: absolute;
+    top: 0;
+    left: 14vw;
+    color: #e6e7ed;
+    font-family: Georgia;
+    font-weight: bold;
+ }
+
+ .informacion .opening{
+    position: absolute;
+    top: 0;
+    left: 11vw;
+    color: #e6e7ed;
+    font-family: Georgia;
+    font-weight: bold;
+ }
+
+ .informacion .dorado{
+    color: #996633;
+ }
+
+ .informacion .textoSit{
+    position: absolute;
+    top: 6vh;
+    left: 8vw;
+    color: #e6e7ed;
+    font-family: Georgia;
+   
+ }
+
+ .barraDorada2{
+    position: absolute;
+    height: 0;
+    width: 85vh;
+    top: 80vh;
+    left: 28vw;
+    border: 3px solid #996633;
+ }
+
+ .copy{
+    position: absolute;
+    height: 0;
+    width: 85vh;
+    top: 83vh;
+    left: 40vw;
+    
+ }
+
+ .copy p{
+    color: #e6e7ed;
+    font-family: Georgia;
+ }
+
+ .copy span{
+    color: #996633;
+
+ }
+
