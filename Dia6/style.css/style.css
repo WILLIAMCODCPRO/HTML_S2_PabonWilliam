@@ -338,7 +338,7 @@ section{
 
 .final{
    position: relative;
-    display: flex;
+   display: flex;
     
 }
 
@@ -416,21 +416,21 @@ section{
  }
 
  .copy{
-    position: absolute;
-    height: 0;
-    width: 85vh;
-    top: 83vh;
-    left: 40vw;
+   position: absolute;
+   height: 0;
+   width: 85vh;
+   top: 83vh;
+   left: 40vw;
     
  }
 
  .copy p{
-    color: #e6e7ed;
-    font-family: Georgia;
+   color: #e6e7ed;
+   font-family: Georgia;
  }
 
  .copy span{
-    color: #996633;
+   color: #996633;
 
  }
 
