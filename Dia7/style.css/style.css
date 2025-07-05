@@ -41,6 +41,7 @@ body{
     display: flex;
     background-color: black;
     margin-top: 2rem;
+    
 }
 
 .contenedor2 div{
@@ -48,6 +49,7 @@ body{
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  
 }
 
 
