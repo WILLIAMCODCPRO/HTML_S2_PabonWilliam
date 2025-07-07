@@ -1,60 +1,65 @@
-.elemento{
-    background-color: lightblue;
-    width: 20vh;
-    height: 20vh;
-    color: white;
-    text-align: center;
-    line-height: 200px;
-    /*Definir la animacion en duracion*/
-    transition-delay: 2s;
-    transition-duration: 5s;
-    transition-timing-function: linear;
-}
-
-.elemento:hover{
-    /* Primer ejemplo- Anima todas las propiedades que cambien de estadp*/
-    width: 30vh;
-    height: 30vh;
+body{
     background-color: black;
+    margin: 0;
 }
 
-a{
-    background-color: black;
-    color: white;
-    padding: 8px;
-    font-size: 50px;
-    transition: font-size 3s, background 5s;
+.bernie{
+    background-image: url(../img/bernie.webp);
+    width: 100px;
+    height: 156px;
+    animation: caminar 0.5s steps(5) infinite;
+    margin-top: 220px;
+    margin-left: 600px;
+    z-index: 100000;
+    position: absolute;
 }
 
-a:hover{
-    background-color: red;
-    font-size: 30px;
-}
+@keyframes caminar {
+    from{
+        background-position: 0px;
 
-.tercerEjemplo{
-   background-color: blue;
-   width: 100px;
-   height: 100px;
-}
-
-.tercerEjemplo:hover{
-    animation: cambiar-color 20s;
-}
-
-@keyframes cambiar-color{
-    0%{
-       background-color: blue;
     }
-    25%{
-        background-color: blueviolet;
-     }
-     50%{
-        background-color: chartreuse;
-     }
-     75%{
-        background-color: aquamarine;
-     }
-     100%{
-        background-color: black;
-     }
+    to {
+        background-position: -600px;
+    }
+}
+
+.fondo1{
+    position: absolute;
+    background-image: url(../img/monkey-sky.webp);
+    width: 1330px;
+    height: 156px;
+    margin-top: 93px;
+    animation: cielo 0.5s steps(5) infinite;
+
+}
+
+@keyframes cielo {
+    from{
+        background-position: 0px;
+
+    }
+    to {
+        background-position: -600px;
+    }
+}
+
+.fondo2{
+    position: absolute;
+    background-image: url(../img/monkey-sea.webp);
+    width: 1330px;
+    height: 156px;
+    margin-top:  250px;
+    animation: puente 0.5s steps(5) infinite;
+
+}
+
+@keyframes puente {
+    from{
+        background-position: 0px;
+
+    }
+    to {
+        background-position: -600px;
+    }
 }
